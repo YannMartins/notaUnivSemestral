@@ -4,7 +4,6 @@ int main(void){
 	float nota1, nota2, nota3, nota11, nota12;
 	float notaFinal;
 	
-	
 	printf("Insira a sua nota na primeira disciplina, da primeira unidade: ");
 	scanf("%f", &nota11);
 	printf("Insira a sua nota na segunda disciplina, da primeira unidade: ");
@@ -45,15 +44,15 @@ int main(void){
 	
 	printf("\nMedia total do semestre: %.2f\nO conceito do aluno eh: ", notaFinal);
 	
-	if( (notaFinal >= 9) && (notaFinal <= 10) ){
+	if ((notaFinal >= 9) && (notaFinal <= 10)){
 		printf("A.\n");
-	}else if( (notaFinal >= 8) && (notaFinal < 9) ){
+	}else if ((notaFinal >= 8) && (notaFinal < 9)){
 		printf("B.\n");
-	}else if( (notaFinal >= 7) && (notaFinal < 8) ){
+	}else if ((notaFinal >= 7) && (notaFinal < 8)){
 		printf("C.\n");
-	}else if( (notaFinal >= 6) && (notaFinal < 7) ){
+	}else if ((notaFinal >= 6) && (notaFinal < 7)){
 		printf("D.\n");
-	}else if( (notaFinal >= 5) && (notaFinal < 6) ){
+	}else if ((notaFinal >= 5) && (notaFinal < 6)){
 		printf("E.\n");
 	}else if (notaFinal < 5){
 		printf("F.\n");
